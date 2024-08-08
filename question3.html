@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>תוצאות שאלה 3</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            direction: rtl;
+            background-color: #f2e8fe; /* צבע רקע לדף */
+            color: #000;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background-color: #f9f4ff; /* צבע רקע לתוכן */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background: #8869aa;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #f9f4ff 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .main-content {
+            padding: 20px;
+            margin-top: 20px;
+        }
+        h2, h3 {
+            color: #8869aa;
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: square;
+            color: #000;
+        }
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .results-table th, .results-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .results-table th {
+            background-color: #8869aa;
+            color: white;
+        }
+        .results-table tr:nth-child(even) {
+            background-color: #f2e8fe;
+        }
+        .footer {
+            background: #8869aa;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        .image-small {
+            width: 25%; 
+            height: auto;
+            margin: 20px 0;
+        }
+        .image-medium {
+            width: 50%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .image-large {
+            width: 100%; 
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>תוצאות שאלה 3</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>טכנולוגיות בשימוש</h2>
+            <ul>
+                <li>ספריות Python:
+                    <ul>
+                        <li>requests: לשליחת בקשות HTTP כדי למשוך דפי אינטרנט.</li>
+                        <li>BeautifulSoup: לניתוח HTML וחילוץ מידע.</li>
+                        <li>pandas: לניהול נתונים ולייצוא תוצאות ל-Excel.</li>
+                        <li>openpyxl: לעבודה עם קבצי Excel ולעיצוב תאים.</li>
+                        <li>nltk: לעיבוד שפה טבעית כולל הסרת מילים לא חשובות.</li>
+                    </ul>
+                </li>
+                <li>ניהול נתונים:
+                    <ul>
+                        <li>Counter לספירת תדירות מילים.</li>
+                        <li>defaultdict לבניית אינדקס הפוך.</li>
+                    </ul>
+                </li>
+                <li>חישובים מתמטיים:
+                    <ul>
+                        <li>math לחישוב ציוני IDF ו-TF – IDF.</li>
+                    </ul>
+                </li>
+                <li>טכנולוגיות אינטרנט:
+                    <ul>
+                        <li>urljoin ליצירת כתובת URL מלאה ממסלולים יחסיים.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h2>זמן ריצה של השאילתות</h2>
+            <div class="images">
+                <img src="time.png" alt="תמונה המצורפת" class="image-small">
+            </div>
+            <p>זמן הריצה תלוי בגורמים הבאים:</p>
+            <ul>
+                <li>גודל הדף: דפים ארוכים לוקחים יותר זמן לעיבוד.</li>
+                <li>מספר הדפים: מספר הדפים המתקבלים משפיע על הזמן הכולל.</li>
+                <li>תשובות מהשרת: זמן תגובה של השרת.</li>
+                <li>קוד: יעילות הקוד ואופטימיזציה.</li>
+            </ul>
+
+            <p>שיפורים:</p>
+            <ul>
+                <li>שימוש בטכניקות caching לשמור תוצאות של דפים שנבדקו.</li>
+                <li>הגבלת מספר השאילתות: כדי למנוע עיכובים מהשרת.</li>
+                <li>אופטימיזציה של קוד: שיפור אלגוריתמים לניקוי טקסט והפקת מילות מפתח.</li>
+            </ul>
+
+            <h2>לכל דף שהוחזר חושבו כל הלינקים שיש בדף הזה:</h2>
+            <div class="images">
+                <img src="Links.png" alt="לינקים בדף" class="image-large">
+            </div>
+            <p>עם קביעת Nodes ו-Edges:</p>
+            <div class="images">
+                <img src="nodesandedges.png" alt="Nodes ו-Edges" class="image-large">
+            </div>
+            <p>ועבור כל דף שהוחזר חושבו ה-Hubs ו-Authorities:</p>
+            <div class="images">
+                <img src="scores.png" alt="Hubs ו-Authorities" class="image-small">
+            </div>
+            <p>אם יש ערכים גבוהים בשדה ה-hubs זה מצביע על כך שישנם דפים שמרכזים קישורים רבים, מה שהופך אותם ל-hubs חשובים.</p>
+            <p>אם יש ערכים גבוהים בשדה ה-authorities זה מצביע על כך שישנם דפים שמקבלים קישורים רבים, מה שהופך אותם ל-authorities חשובים.</p>
+
+            <h2>10 דפים שהזחלן החזיר</h2>
+            <p>נתנו לזחלן 10 מאמרים וקיבלנו את ה-pageRanks הבאים:</p>
+            <ul>
+                <li>https://www.ea.com/games - PageRank: 0.1763</li>
+                <li>https://www.ea.com/news/2024-ea-sports-latest-tech-innovations - PageRank: 0.1601</li>
+                <li>https://www.ea.com/sports - PageRank: 0.1450</li>
+                <li>https://www.ea.com/ea-play - PageRank: 0.1450</li>
+                <li>https://www.ea.com/playtesting - PageRank: 0.1130</li>
+                <li>https://www.ea.com/careers - PageRank: 0.1130</li>
+                <li>https://www.ea.com/news/hiring-our-heroes - PageRank: 0.0369</li>
+                <li>https://www.ea.com/news/how-the-community-helps-shape-the-sims - PageRank: 0.0369</li>
+                <li>https://www.ea.com/legal - PageRank: 0.0369</li>
+                <li>https://www.ea.com/store - PageRank: 0.0369</li>
+            </ul>
+            <p>קיבלנו את הגרף:</p>
+            <div class="images">
+                <img src="graph.png" alt="תמונה המצורפת" class="image-medium">
+            </div>
+
+            <h2>דירוג המשתמשים:</h2>
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>page</th>
+                        <th>PageRank</th>
+                        <th>User1</th>
+                        <th>User2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>0.1763</td>
+                        <td>רלוונטי</td>
+                        <td>רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>0.1601</td>
+                        <td>רלוונטי</td>
+                        <td>רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>0.145</td>
+                        <td>רלוונטי</td>
+                        <td>רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>0.145</td>
+                        <td>רלוונטי</td>
+                        <td>רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>0.1130</td>
+                        <td>לא רלוונטי</td>
+                        <td>רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>0.1130</td>
+                        <td>רלוונטי</td>
+                        <td>לא רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>0.0369</td>
+                        <td>לא רלוונטי</td>
+                        <td>לא רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>0.0369</td>
+                        <td>לא רלוונטי</td>
+                        <td>לא רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>0.0369</td>
+                        <td>לא רלוונטי</td>
+                        <td>לא רלוונטי</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>0.0369</td>
+                        <td>לא רלוונטי</td>
+                        <td>לא רלוונטי</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>ניתן לראות כי ארבעת הדפים הראשונים רלוונטיים עבור שני המשתמשים, הדף החמישי והשישי חלוקים בעיניי שניהם וארבעת הדפים האחרונים הוגדרו בתור לא רלוונטיים.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>תרגיל בית 3 - ישראל שושן, עמית פרץ, דוד אסולין, יובל הילאי</p>
+    </footer>
+</body>
+</html>
